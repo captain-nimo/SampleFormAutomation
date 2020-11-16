@@ -8,6 +8,14 @@ Library     SeleniumLibrary
 ${BROWSER} =            chrome
 ${BASE_URL} =           https://demoqa.com/automation-practice-form
 
+${FIRST_NAME_VALUE} =           Test
+${LAST_NAME_VALUE} =            Student
+${EMAIL_VALUE} =                test@test.com
+${MOBILE_NUM_VALUE} =           1111111111
+${DOB_VALUE} =                  01 Jan 2010
+${SUBJECT_VALUE} =              Test Subject
+${CURRECT_ADDRESS_VALUE} =      Test Address
+
 *** Keywords ***
 
 Begin Web Test

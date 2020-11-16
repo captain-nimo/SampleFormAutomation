@@ -3,7 +3,7 @@
 Resource  ../Resources/Common.robot  # necessary for Setup & Teardown
 Resource  ../Resources/PracticeFormWeb.robot  # necessary for lower level keywords in test cases
 
-Suite Setup  Common.Begin Web Test
+Suite Setup     Common.Begin Web Test
 Suite Teardown  Common.End Web Test
 
 *** Variables ***
@@ -11,19 +11,23 @@ Suite Teardown  Common.End Web Test
 
 *** Test Cases ***
 
-Verify correct page is loaded
+Verify Correct Page Is Loaded
 
     [Documentation]    Trying to submit an empty form
     [Tags]             Smoke
 
-    PracticeFormWeb.Verify Correct Page Loaded
+    Verify Correct Page Loaded
 
-Verify system does not take empty form
+Verify System Does Not Take Empty Form
 
     [Documentation]    Trying to submit an empty form
     [Tags]             Smoke
 
-    PracticeFormWeb.Submit Empty Form
+    Submit Empty Form
+
+Verify Form Submission With Mandatory Fields
+
+    Submit Form With Only Mandatory Fields
 
 
 

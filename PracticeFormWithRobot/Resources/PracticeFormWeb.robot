@@ -14,6 +14,14 @@ Submit Empty Form
     PageObjectForm.Submit Form
     PageObjectSubmit.Verify Unsuccessful Submit
 
+Submit Form With Only Mandatory Fields
+
+    PageObjectForm.Enter Name Values
+    PageObjectForm.Select Gender
+    PageObjectForm.Enter Mobile Number
+    PageObjectForm.Submit Form
+    PageObjectSubmit.Verify Successful Submit
+
 
 
 
