@@ -13,8 +13,13 @@ ${LAST_NAME_VALUE} =            Student
 ${EMAIL_VALUE} =                test@test.com
 ${MOBILE_NUM_VALUE} =           1111111111
 ${DOB_VALUE} =                  01 Jan 2010
+${DOB_YEAR} =                   2010
+${DOB_MONTH} =                  0
 ${SUBJECT_VALUE} =              Test Subject
-${CURRECT_ADDRESS_VALUE} =      Test Address
+${CURRENT_ADDRESS_VALUE} =      House # 1, Road # 2, Apartment # 3
+${FILE_PATH} =                  /Users/mahmudul/Desktop/gotham_city.jpg
+${STATE_VALUE} =                Rajasthan
+${CITY_VALUE} =                 Jaipur
 
 *** Keywords ***
 

@@ -18,6 +18,10 @@
     To run the test, first go to the project location (i.e. 'PracticeFormWithRobot') using the command line, then run a test using 'robot'
     command. Some commands to run the existing tests are folling.
     
+  #### Run all the test files:
+    
+      python3 -m robot -d Results Tests
+  
   #### Run a test file using the default values:
     
       python3 -m robot -d Results Tests/PracticeForm.robot

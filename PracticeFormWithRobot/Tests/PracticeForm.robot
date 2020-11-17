@@ -3,8 +3,8 @@
 Resource  ../Resources/Common.robot  # necessary for Setup & Teardown
 Resource  ../Resources/PracticeFormWeb.robot  # necessary for lower level keywords in test cases
 
-Suite Setup     Common.Begin Web Test
-Suite Teardown  Common.End Web Test
+Test Setup          Common.Begin Web Test
+Test Teardown       Common.End Web Test
 
 *** Variables ***
 
@@ -27,7 +27,17 @@ Verify System Does Not Take Empty Form
 
 Verify Form Submission With Mandatory Fields
 
+    [Documentation]    Trying to submit the form with mandatory fields
+    [Tags]             Smoke
+
     Submit Form With Only Mandatory Fields
+
+Verify Form Submission With All The Fields
+
+    [Documentation]    Trying to submit the form with all the fields
+    [Tags]             Smoke
+
+    Submit Form With ALL Fields
 
 
 
