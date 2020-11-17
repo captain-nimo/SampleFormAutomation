@@ -1,5 +1,7 @@
 *** Settings ***
 
+Documentation    This is the test file which contains the test cases for practice form automation.
+
 Resource  ../Resources/Common.robot  # necessary for Setup & Teardown
 Resource  ../Resources/PracticeFormWeb.robot  # necessary for lower level keywords in test cases
 

@@ -1,5 +1,7 @@
 *** Settings ***
 
+Documentation    This is the page object file for the form. It contains the selectors for the page elements. Interactions made in the page (form) are also defined here.
+
 Library     SeleniumLibrary
 Resource  ../../Resources/Common.robot
 

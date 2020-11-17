@@ -1,5 +1,7 @@
 *** Settings ***
 
+Documentation    Common file contains the the common varialbles, values and Keywords used across the project.
+
 Library     SeleniumLibrary
 
 
@@ -7,6 +9,8 @@ Library     SeleniumLibrary
 
 ${BROWSER} =            chrome
 ${BASE_URL} =           https://demoqa.com/automation-practice-form
+
+# Test Values
 
 ${FIRST_NAME_VALUE} =           Test
 ${LAST_NAME_VALUE} =            Student

@@ -1,5 +1,7 @@
 *** Settings ***
 
+Documentation    This file is for generating steps for the test cases
+
 Resource    ../Resources/PO/PageObjectForm.robot
 Resource    ../Resources/PO/PageObjectSubmit.robot
 

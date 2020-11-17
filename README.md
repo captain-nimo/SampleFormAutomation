@@ -13,9 +13,13 @@
     2. To install SeleniumLibrary, use 'pip install robotframework-seleniumlibrary' command.
     3. Download latest Chrome Driver from 'https://chromedriver.chromium.org/' and add the directory into your OS PATH.
     
+  ## Development IDE and Plugins
+  
+    1. I've used PyCharm as the development IDE, and used Intellibot plugins ('https://github.com/lte2000/intellibot').
+    
   ## Running the tests
     
-    To run the test, first go to the project location (i.e. 'PracticeFormWithRobot') using the command line, then run a test using 'robot'
+    To run the test, first go to the project location (i.e. 'practice_form_automation') using the command line, then run a test using 'robot'
     command. Some commands to run the existing tests are folling.
     
   #### Run all the test files:

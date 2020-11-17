@@ -1,5 +1,7 @@
 *** Settings ***
 
+Documentation    This is the page object file for the submit page. It contains the selectors for the page elements. Interactions made in the page (submit) are also defined here.
+
 Library    SeleniumLibrary
 
 *** Variables ***
