@@ -20,7 +20,7 @@
   ## Running the tests
     
     To run the test, first go to the project location (i.e. 'practice_form_automation') using the command line, then run a test using 'robot'
-    command. Some commands to run the existing tests are folling.
+    command. Some commands to run the existing tests are following.
     
   #### Run all the test files:
     
